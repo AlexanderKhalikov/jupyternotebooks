@@ -1,0 +1,13 @@
+<ns2:SiteBoxesRequest xmlns:ns2="http://www.ibm.com/rules/decisionservice/SiteBoxesApp/SiteBoxes" xmlns:ns3="http://www.ibm.com/rules/decisionservice/SiteBoxesApp/SiteBoxes/param">
+   <ns2:DecisionID/>
+   <ns2:DEBUG_MODE>true</ns2:DEBUG_MODE>
+   <ns3:calculation>
+      <calculation>
+         <promoCode>AGENT!</promoCode>
+         <product>goodNeighbors</product>
+         <optionName>Опция 3</optionName>
+         <loyaltyScore>10000.0</loyaltyScore>
+         <purchaseAmount>750.0</purchaseAmount>
+      </calculation>
+   </ns3:calculation>
+</ns2:SiteBoxesRequest>

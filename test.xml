@@ -1,0 +1,43 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.ibm.com/rules/decisionservice/FirstRZUapp/FirstRZU">
+   <soapenv:Body>
+      <FirstRZUResponse xmlns="http://www.ibm.com/rules/decisionservice/FirstRZUapp/FirstRZU">
+         <ilog.rules.outputString>Вход в поток Первичная оценка РЗУ вер. от 08.02.2017
+Начало потока инициализации РЗУ
+Начало проверок КАСКО РЗУ
+Выход из потока проверок КАСКО РЗУ
+Выход из потока инициализации РЗУ
+Начало потока определения РЗУ по КАСКО
+РЗУ по КАСКО равно 60 000 руб.
+Выход из потока определения РЗУ по КАСКО
+Выход из потока Первичная оценка РЗУ</ilog.rules.outputString>
+         <ilog.rules.firedRulesCount>1</ilog.rules.firedRulesCount>
+         <DecisionID>?</DecisionID>
+         <data xmlns="http://www.ibm.com/rules/decisionservice/FirstRZUapp/FirstRZU/param">
+            <data xmlns="">
+               <insurantType>Физическое лицо</insurantType>
+               <product>046</product>
+               <insuranceEventType/>
+               <brand>KIA</brand>
+               <model>Rio</model>
+               <vehicleType/>
+               <region>Москва</region>
+               <commentList>?</commentList>
+               <contractNumber>0790W/046/3741718/7</contractNumber>
+               <settlementRC/>
+               <settlementFilial/>
+               <partialDamageType/>
+               <insuranceEventDate>2018-03-29T13:47:23.558+04:00</insuranceEventDate>
+               <marketingProductName/>
+               <complementaryProgramName/>
+               <firstRZU>60000.0</firstRZU>
+               <franchiseSize>0.0</franchiseSize>
+               <insuranceAmount>3000000.0</insuranceAmount>
+               <repairOfChoiceOfInsured>false</repairOfChoiceOfInsured>
+               <success>true</success>
+               <vehiclePower>0.0</vehiclePower>
+               <vehicleYear>0.0</vehicleYear>
+            </data>
+         </data>
+      </FirstRZUResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
